@@ -97,7 +97,24 @@ async def on_message(message):
     channel = message.channel
     r = random.choice
     user = message.author
-    if message.content.upper() == ">WARN":
+   # if message.content.upper() == ">WARN":
+	
+        #if "506569887716737024" in (role.id for role in message.author.roles):
+		
+	
+	
+    
+    
+       # embed = discord.Embed(color = 0xB22222, title = "User warned")
+   # embed.add_field(name = "User Warned", value = "{0}".format(userName), inline=False)
+   # embed.add_field(name = "Moderator", value = "{0}".format(ctx.message.author), inline=False)
+  #  embed.add_field(name = "Reason", value = "{0}".format(message), inline=False)
+ #
+    #await client.send_message(channel, embed=embed)
+   
+	
+		
+	
 	
 	
 	
