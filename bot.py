@@ -67,7 +67,7 @@ def predicate(message, l, r):
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name= "Řekni Dogisek Bot do chatu!"))
+    await client.change_presence(game=discord.Game(name= "Řekni Dogisek Bot do bot-commands!"))
     print("The bot is online and connected with Discord!") 
    # await client.send_message(channel, "``Jsem tu a připraven!!``")
     
